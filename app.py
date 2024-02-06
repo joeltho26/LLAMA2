@@ -15,7 +15,6 @@ def getLLamaresponse(input_text,no_words,blog_style):
                               'temperature':0.01})
     
     ## Prompt Template
-
     template="""
         Write a blog for {blog_style} job profile for a topic {input_text}
         within {no_words} words.
